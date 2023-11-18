@@ -1,0 +1,75 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0%;
+    background: url(../img/1642005532_57-damion-club-p-fon-dlya-prezentatsii-ko-dnyu-materi-62.jpg) no-repeat bottom left/ cover;
+
+}
+
+.wrapper {
+    overflow: hidden;
+    font-family: 'Cormorant Infant', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    animation: gradient 15s infinite;
+}
+
+.content {
+
+    opacity: 100%;
+    display: inline-block;
+    color: rgb(64, 31, 77);
+    padding: 30px;
+    border-radius: 60px 20px 60px 20px;
+    animation: shift 3s forwards;
+    box-shadow: 2px 3px 2px 3px lavender;
+}
+
+.tittle {
+    font-size: 70px;
+    text-align: center;
+    color: hotpink;
+
+
+}
+
+.poem {
+    font-size: 30px;
+}
+
+
+@keyframes shift {
+    0% {
+        transform: translatex(-100vw)
+    }
+
+    50% {
+        transform: scale(0.5) rotateY(90deg);
+    }
+
+    100% {
+        transform: translatex(0)
+    }
+}
+
+@keyframes gradient {
+    0% {
+        background: rgba(255, 254, 255, 0)
+    }
+
+    50% {
+        background: rgb(164, 132, 164)
+    }
+
+    100% {
+        background: rgba(255, 255, 255, 0.5);
+    }
+
+
+
+}
